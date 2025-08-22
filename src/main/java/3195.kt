@@ -1,3 +1,6 @@
+import kotlin.math.max
+import kotlin.math.min
+
 class Solution {
     fun minimumArea(grid: Array<IntArray>): Int {
         var top = grid.size
