@@ -1,4 +1,4 @@
-private class Solution {
+private class Solution2089 {
     fun targetIndices(nums: IntArray, target: Int): List<Int> {
         var resIndex = 0
         var count = 0

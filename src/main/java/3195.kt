@@ -1,7 +1,7 @@
 import kotlin.math.max
 import kotlin.math.min
 
-private class Solution {
+private class Solution3195 {
     fun minimumArea(grid: Array<IntArray>): Int {
         var top = grid.size
         var start = grid[0].size
