@@ -1,4 +1,4 @@
-class Solution {
+private class Solution37 {
     fun solveSudoku(board: Array<CharArray>): Unit {
 
         data class Point(val row: Int, val col: Int)
