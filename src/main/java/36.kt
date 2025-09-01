@@ -1,4 +1,4 @@
-class Solution {
+private class Solution36 {
     fun isValidSudoku(board: Array<CharArray>): Boolean {
         val isCharSeen = mutableSetOf<String>()
         for (i in 0 until 9) {
