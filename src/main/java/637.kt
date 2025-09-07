@@ -9,17 +9,17 @@
  * }
  */
 
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
+class TreeNode637(var `val`: Int) {
+    var left: TreeNode637? = null
+    var right: TreeNode637? = null
 }
 
-class Solution {
-    fun averageOfLevels(root: TreeNode?): DoubleArray {
+private class Solution637 {
+    fun averageOfLevels(root: TreeNode637?): DoubleArray {
         val res = mutableListOf<Double>()
         if (root == null) return doubleArrayOf()
 
-        val queue = ArrayDeque<TreeNode>()
+        val queue = ArrayDeque<TreeNode637>()
         queue.add(root)
 
         while (queue.isNotEmpty()) {
