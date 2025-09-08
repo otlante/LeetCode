@@ -13,9 +13,9 @@ private class Solution1317 {
 
     fun getNoZeroIntegers(n: Int): IntArray {
         for (i in 1..n) {
-            var a1 = i
-            var a2 = n - i
-            var isOk = true
+            val a1 = i
+            val a2 = n - i
+            val isOk = true
 
             if (!containsZeros(a1) && !containsZeros(a2)) {
                 return intArrayOf(a1, a2)
